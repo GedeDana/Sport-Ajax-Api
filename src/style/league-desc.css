@@ -1,0 +1,42 @@
+league-desc {
+    width: 100%;
+    margin:  auto;
+    background-color: #7952B3;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    color: white;
+    
+}
+
+
+league-desc article {
+    flex: 2;
+    margin-right: 40px;
+
+}
+
+league-desc figure img {
+    border: solid white 5px;
+    width: 250px;
+    height: 200px;
+    background-repeat: repeat;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+@media screen and (max-width: 840px){
+    league-desc {
+        display: flex;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width: 600px){
+
+    league-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

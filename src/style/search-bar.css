@@ -1,0 +1,30 @@
+search-bar {
+    margin-top: 20px;
+    padding: 20px;
+    background: #343A40;
+    width: 90%;
+    padding: 15px 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 5px;
+}
+search-bar  .form-control{
+    background-color: white;
+    width:100%;
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    border-radius: 5px;
+}
+search-bar  .btn{
+    background: #FFC107;
+    color: #343A40;
+    height: 36px;
+    padding: 10px;
+    margin-left: 10px;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    border-radius: 5px;
+}
